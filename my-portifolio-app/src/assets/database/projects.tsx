@@ -6,6 +6,8 @@ export const projects: any = [
     link: "https://github.com/luizpcardoso/-Full-Stack-charllenger-Front-End",
     tecnologies:
       "TypeScript, React, Styled-Components, Yup, Reac-router-dom, Axios, context-API. ",
+    video: "https://youtu.be/VxDXX8Yzyho",
+    deploy: "http://google.com",
   },
   {
     title: "Pagamentos-Back-End",
@@ -13,6 +15,8 @@ export const projects: any = [
       "Aplicação Back-End, esta API contém rotas de cadstro/loguin e trançãocões (tranferência de saldo e lista de todas as transações realizadas).",
     link: "https://github.com/luizpcardoso/Full-Stack-charllenger-API",
     tecnologies: "Node JS, TypeScrip, Express, TypeORM, Postgree, UUID, JWT",
+    video: "https://youtu.be/VxDXX8Yzyho",
+    deploy: "",
   },
   {
     title: "LocadoraAPI-Node",
@@ -20,6 +24,8 @@ export const projects: any = [
       "Aplicação Back-End sumulando um sistema de locadora desenvolvido em Node JS",
     link: "https://github.com/luizpcardoso/Modelo-LocadoraAPI-Node.js",
     tecnologies: "Node JS, Express, Postgree, TypeORM",
+    video: null,
+    deploy: "",
   },
   {
     title: "Loja-de-bebidas",
@@ -27,6 +33,8 @@ export const projects: any = [
       "Aplicação desenvolvida em React consumindo uma api externa de bebidas.",
     link: "https://github.com/luizpcardoso/Modelo-de-aplica-o-no-React",
     tecnologies: "React, Axios, Context-API, Styled-Components",
+    video: null,
+    deploy: "",
   },
   {
     title: "Portifolio-pessoal",
@@ -34,5 +42,7 @@ export const projects: any = [
       "Aplicação desenvolvida em NextJs contendo o meu portifólio pessoal.",
     link: "https://github.com/luizpcardoso/portifolio-v2",
     tecnologies: "React js, Next js, React-Icons",
+    video: null,
+    deploy: "",
   },
 ];

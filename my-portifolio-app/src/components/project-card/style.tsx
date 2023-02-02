@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 280px;
-  width: 280px;
+  height: 300px;
+  width: 300px;
   background-color: #2b2d41;
   box-sizing: border-box;
   padding: 20px;
@@ -11,27 +11,42 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.4);
+  justify-content: space-between;
 
-  gap: 0.5rem;
+  .details__section {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
   .icon {
     font-size: 2.5rem;
     color: #ff4a57;
+    width: 2.6rem;
   }
 
   h3 {
     font-size: 1.2rem;
-  }
-  h3:hover {
-    cursor: pointer;
-    text-decoration: underline;
+    color: #ff4a57;
   }
 
   p {
     font-size: 0.8rem;
   }
   span {
-    color: #ff4a57;
     font-size: 1rem;
     font-weight: bold;
+  }
+  .links__section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    height: 50px;
+
+    .icon:hover {
+      font-size: 2.8rem;
+      color: #ec888f;
+    }
   }
 `;

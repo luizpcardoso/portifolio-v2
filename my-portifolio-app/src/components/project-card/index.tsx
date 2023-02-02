@@ -2,7 +2,7 @@ import { Container } from "./style";
 
 import { BiLinkExternal } from "react-icons/bi";
 
-import { RiGitRepositoryFill } from "react-icons/ri";
+import { RiGitRepositoryFill, RiMovieFill, RiPagesLine } from "react-icons/ri";
 
 interface IProject {
   project: {
@@ -10,22 +10,38 @@ interface IProject {
     description: string;
     link: string;
     tecnologies: string;
+    video: string;
+    deploy: string;
   };
 }
 
 export default function ProjectCard({ project }: IProject) {
   return (
     <Container>
-      <RiGitRepositoryFill className="icon" />
-      <h3>
-        <a href={project.link} target="_blank">
-          {project.title} <BiLinkExternal />
-        </a>
-      </h3>
-      <p>{project.description}</p>
-      <p>
-        <span>{project.tecnologies}</span>
-      </p>
+      <div className="details__section">
+        <h3>{project.title}</h3>
+        <p>{project.description}</p>
+        <p>
+          <span>{project.tecnologies}</span>
+        </p>
+      </div>
+      <div className="links__section">
+        {project.link ? (
+          <a href={project.link}>
+            <RiGitRepositoryFill className="icon" />
+          </a>
+        ) : null}
+        {project.video ? (
+          <a href={project.video}>
+            <RiMovieFill className="icon" />
+          </a>
+        ) : null}
+        {project.deploy ? (
+          <a href={project.deploy}>
+            <RiPagesLine className="icon" />
+          </a>
+        ) : null}
+      </div>
     </Container>
   );
 }
