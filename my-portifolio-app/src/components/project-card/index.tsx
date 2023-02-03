@@ -27,17 +27,17 @@ export default function ProjectCard({ project }: IProject) {
       </div>
       <div className="links__section">
         {project.link ? (
-          <a href={project.link} target="_blank">
+          <a href={project.link} target="_blank" rel="noreferrer">
             <RiGitRepositoryFill className="icon" />
           </a>
         ) : null}
         {project.video ? (
-          <a href={project.video} target="_blank">
+          <a href={project.video} target="_blank" rel="noreferrer">
             <RiMovieFill className="icon" />
           </a>
         ) : null}
         {project.deploy ? (
-          <a href={project.deploy} target="_blank">
+          <a href={project.deploy} target="_blank" rel="noreferrer">
             <RiPagesLine className="icon" />
           </a>
         ) : null}
