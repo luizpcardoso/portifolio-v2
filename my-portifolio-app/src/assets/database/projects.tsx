@@ -7,7 +7,7 @@ export const projects: any = [
     tecnologies:
       "TypeScript, React, Styled-Components, Yup, Reac-router-dom, Axios, context-API. ",
     video: "https://youtu.be/VxDXX8Yzyho",
-    deploy: "http://google.com",
+    deploy: null,
   },
   {
     title: "Pagamentos-Back-End",
@@ -43,6 +43,6 @@ export const projects: any = [
     link: "https://github.com/luizpcardoso/portifolio-v2",
     tecnologies: "React js, Next js, React-Icons",
     video: null,
-    deploy: "",
+    deploy: "https://portifolio-v2-rust.vercel.app/",
   },
 ];
