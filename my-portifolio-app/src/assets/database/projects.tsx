@@ -34,7 +34,8 @@ export const projects: any = [
     link: "https://github.com/luizpcardoso/Modelo-de-aplica-o-no-React",
     tecnologies: "React, Axios, Context-API, Styled-Components",
     video: null,
-    deploy: "",
+    deploy:
+      "https://react-entrega-s3-administracao-de-eventos-luizpcardoso.vercel.app/",
   },
   {
     title: "Portifolio-pessoal",
