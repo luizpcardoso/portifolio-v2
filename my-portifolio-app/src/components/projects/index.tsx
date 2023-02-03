@@ -8,6 +8,8 @@ interface IProject {
   description: string;
   link: string;
   tecnologies: string;
+  video: string;
+  deploy: string;
 }
 
 export default function Projects() {
@@ -17,7 +19,9 @@ export default function Projects() {
         <h2>Projects</h2>
         <div className="skills-container" id="projects">
           {projects.map((project: IProject) => {
-            return <ProjectCard project={project}></ProjectCard>;
+            return (
+              <ProjectCard project={project} key={project.title}></ProjectCard>
+            );
           })}
         </div>
       </section>
