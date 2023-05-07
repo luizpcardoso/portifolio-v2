@@ -20,6 +20,7 @@ export const Container = styled.div`
       display: flex;
       flex-direction: row;
       align-items: center;
+      gap: 120px;
 
       li {
         list-style: none;
@@ -27,8 +28,14 @@ export const Container = styled.div`
         color: #c5c5c5;
         font-family: "Inter", sans-serif;
         font-weight: bold;
-        margin-right: 120px;
       }
+    }
+  }
+
+  @media (max-width: 600px) {
+    padding-left: 20px;
+    nav ul {
+      gap: 10px;
     }
   }
 `;

@@ -49,4 +49,26 @@ export const Container = styled.div`
       color: #ec888f;
     }
   }
+
+  @media (max-width: 600px) {
+    height: 200px;
+    width: 40%;
+    gap: 5px;
+    padding: 8px;
+    box-sizing: border-box;
+
+    .icon {
+      font-size: 2em;
+      color: #ff4a57;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+    p {
+      font-size: 0.8em;
+      height: 60%;
+      overflow-y: scroll;
+    }
+  }
 `;

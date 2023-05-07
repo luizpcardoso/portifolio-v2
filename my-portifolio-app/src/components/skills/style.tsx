@@ -33,4 +33,24 @@ export const Container = styled.section`
     flex-wrap: wrap;
     gap: 50px;
   }
+
+  @media (max-width: 600px) {
+    max-height: 800px;
+    section {
+      height: 700px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .skills-container {
+      width: auto;
+      height: 700px;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      overflow-x: scroll;
+      gap: 5px;
+    }
+  }
 `;
