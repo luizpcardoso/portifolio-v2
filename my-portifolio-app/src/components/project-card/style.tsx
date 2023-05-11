@@ -67,8 +67,11 @@ export const Container = styled.div`
     }
     p {
       font-size: 0.8em;
-      height: 60%;
+
       overflow-y: scroll;
+    }
+    .deails__tecnologies {
+      display: none;
     }
   }
 `;

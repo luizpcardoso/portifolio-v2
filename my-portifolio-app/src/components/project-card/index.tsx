@@ -22,7 +22,7 @@ export default function ProjectCard({ project }: IProject) {
         <h3>{project.title}</h3>
         <p>{project.description}</p>
         <p>
-          <span>{project.tecnologies}</span>
+          <span className="deails__tecnologies">{project.tecnologies}</span>
         </p>
       </div>
       <div className="links__section">
