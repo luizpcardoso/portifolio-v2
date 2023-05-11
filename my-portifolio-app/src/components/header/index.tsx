@@ -21,10 +21,15 @@ export default function Header() {
             <a
               href="https://www.linkedin.com/in/luiz-paulo-reis-cardoso/"
               target="_blank"
+              rel="noreferrer"
             >
               <BsLinkedin className="icon" />
             </a>
-            <a href="https://github.com/luizpcardoso" target="_blank">
+            <a
+              href="https://github.com/luizpcardoso"
+              target="_blank"
+              rel="noreferrer"
+            >
               <ImGithub className="icon" />
             </a>
           </div>
