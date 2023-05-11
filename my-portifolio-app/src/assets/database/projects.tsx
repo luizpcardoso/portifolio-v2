@@ -6,9 +6,18 @@ export const projects: any = [
     link: "https://github.com/luizpcardoso/-Full-Stack-charllenger-Front-End",
     tecnologies:
       "TypeScript, React, Styled-Components, Yup, Reac-router-dom, Axios, context-API. ",
-    video: "https://youtu.be/VxDXX8Yzyho",
     deploy: null,
   },
+  {
+    title: "Pagamentos-Front-End V2",
+    description:
+      "Refatoração do front-end da aplicação full stack de pagamentos",
+    link: "https://github.com/luizpcardoso/Sistema-de-pagamentos-front",
+    tecnologies:
+      "TypeScript, React, Styled-Components, Yup, Reac-router-dom, Axios, context-API. ",
+    deploy: null,
+  },
+
   {
     title: "Pagamentos-Back-End",
     description:

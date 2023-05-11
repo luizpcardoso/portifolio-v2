@@ -29,6 +29,11 @@ export const Container = styled.div`
         font-family: "Inter", sans-serif;
         font-weight: bold;
       }
+      li:hover {
+        text-decoration: underline;
+        color: #ffffff;
+        transition: 0, 3s;
+      }
     }
   }
 

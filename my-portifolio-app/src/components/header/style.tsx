@@ -47,6 +47,16 @@ export const Container = styled.section`
       }
     }
   }
+  .icon {
+    font-size: 3em;
+    color: #ffffff;
+    margin: 10px 15px 0 0;
+  }
+
+  .icon:hover {
+    color: #ff4a57;
+    transition: 0.3s;
+  }
 
   @media (max-width: 600px) {
     height: 450px;
@@ -60,6 +70,9 @@ export const Container = styled.section`
 
         p {
           font-size: 1.5rem;
+        }
+        span {
+          font-size: 1.8rem;
         }
       }
     }
