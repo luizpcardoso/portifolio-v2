@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portifólio do Luiz</title>
+        <title>Luiz P Reis</title>
       </Head>
       <Header></Header>
       <Skills></Skills>
-      <Projects></Projects>
+      {/* <Projects></Projects> */}
     </>
   );
 }

@@ -4,13 +4,20 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 import { FaDatabase } from "react-icons/fa";
 import { DiGitCompare } from "react-icons/di";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiNestjs } from "react-icons/si";
 
 export const skills = [
   {
-    title: "Javascript",
-    icon: IoLogoJavascript,
+    title: "Next Js",
+    icon: TbBrandNextjs,
+    description: "Desenvolvimento de aplicações WEB utilizando Next.js",
+  },
+  {
+    title: "Nest js",
+    icon: SiNestjs,
     description:
-      "Desenvolvimento de web pages utilizando Javascript puro ou com alguma biblioteca/framework.",
+      "Criação e manutenção de API's utilizando a biblioteca do node Nest Js.",
   },
   {
     title: "TypeScript",
@@ -35,11 +42,5 @@ export const skills = [
     icon: FaDatabase,
     description:
       "Utilização de bancos relacionais ou não relacionais para armazenamento de dados e integrados a API's.",
-  },
-  {
-    title: "Git",
-    icon: DiGitCompare,
-    description:
-      "Uso de git para versionamento de código, metodologias de git-flow para desenvolvimento em equipe.",
   },
 ];
